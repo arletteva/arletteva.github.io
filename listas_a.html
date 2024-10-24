@@ -1,0 +1,210 @@
+<!--
+Facultad de Arquitectura 
+Colegio de Diseño Grafico 
+Diseño de Interfaces Graficas de Usuario
+Arlette Pamela Vázquez Animas
+--><html lang="es"> 
+    <head>
+        <meta charset="utf-8">
+        <title>listas</title>
+        <style> type="text/cass"
+            *{
+                 margin:0px;
+                 padding:0px;
+             }
+             header,nav,main,footer{
+                 width: 1200px;
+                 color: #000000;
+                 margin-left: auto;
+                 margin-right: auto;
+                 padding: 30px;
+             }
+             header{
+                 width: 1200px;
+                 color: #FFFFFF;
+                 margin-left: auto;
+                 margin-right: auto;
+                 padding: 30px;
+             }
+            header{
+                background-color: #FB6F92;
+                color: #FF8FAB
+                height: 150px;
+            }
+            nav{
+               height:auto; 
+                background-color: #FF8FAB;
+            }
+           
+            main {
+              height: auto;
+                background-color: #FFE5EC;
+            }
+              main nav {
+                  width: 600px 
+              }
+            footer{
+              height: 50px;  
+                background-color: #E4007C;
+            }
+            section{
+              width: 800px;  
+                background-color: #Ffcdd4;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 30px;
+            }
+               #menu li {
+                width: 75px;
+                background-color: #FFFFFF;
+                color: #FB6F92;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            
+            h2{
+              margin-bottom: 30px;
+                color: #E4007C;
+            }
+            h1,h5{
+              text-align: center;
+                padding: 30px;
+            }
+            p a:visited {
+                color: #FB6F92
+            }
+            p a:link {
+                color: #FBFFCD
+            }
+            p a:active {
+                color: orange
+            }
+            p{
+                margin-bottom: 20px
+              }
+            
+             #menu li {
+                width: 75px;
+                background-color: #FFFFFF;
+                color: #FB6F92;
+                padding: 10px;
+                border-radius: 10px;
+                 
+                display: inline-block; 
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            
+             #menu{
+              list-style-type: none; 
+                text-align: center;
+            }
+             #m{
+                display: inline-block; 
+                margin-left: 10px;
+                margin-right: 10px;
+                 }
+            #menu a:link, ul a:visited{
+              color: #FB6F92 
+            }
+            #menu a:hover{
+                color: #FB6F92;
+                font-weight: bolder;
+            }
+              #menu li a{
+                  text-decoration: none;
+                  color: #FB6F92
+              }
+              /*nav ul li a:link, nav ul li a:visited {
+                color:#508c9b;
+                font-weight: bold
+              }
+              nav ul li a:hover {
+                  color:#201E43
+              }*/
+              #m:hover,  #m a:hover{
+                  background-color: #FB6F92;
+                  color:#FFFFFF
+                ul{
+              list-style-type: none; 
+                text-align: center;
+            }
+                  
+        
+            </style>
+        
+    </head>
+    <body>
+        
+            <header>
+                <h1>LISTAS EN HTML</h1>
+        </header>
+    
+        <nav>
+        
+        <ul id="menu">
+            
+            <li id="m"><a href="formatos_a.html">Formatos </a> </li>
+            <li id="m"><a href="listas_a.html"> Listas</a></li>
+            <li id="m"><a href="enlaces_a.html">Enlaces</a></li>
+            <li id="m"><a href="tablas_a.html">Tablas</a></li>
+            <li id="m"><a href="imagenes_a.html">Imagenes</a></li>
+            <li id="m"><a href="audio_a.html">Audio</a></li>
+            <li id="m"><a href="video_a.html">Video</a></li>
+            <li id="m"><a href="formularios.html.txt">Formularios</a></li>
+            </ul>
+        </nav>
+         <main>
+            <section id="lista1">
+                <h2>Lista ordenanda o con viñeta numerada</h2>
+                <ol>
+                <li>Alejandra Bonilla</li>
+                <li>Araceli Sanchez </li>
+                <li>Beatriz Morales</li>
+                <li>Diana Valencia</li>
+                <li>Gael Villegas</li>
+                </ol>
+            </section>
+            <section id="lista2">
+            <h2> Lista desordenada o con viñeta de icono</h2>
+                <ul>
+                <li>Shampoo</li>
+                <li>Jabon de baño liquido</li>
+                <li>Pasta de dientes</li>
+                <li>Papel higienico </li>
+                <li>Arroz</li>
+                <li>Aceite</li>
+                </ul>
+            </section>
+            <section id="lista3">
+            <h2>Lista mixta</h2>
+            <ol>
+                <li>Argentina</li>
+                <li>Brasil</li>
+                <li>Italia</li>
+            
+            <li>Mexico 
+                <ul>
+                <li>Puebla
+                    <ul>
+                    <li>Cholula</li>
+                    <li>Atlixco</li>
+                    <li>Acajete</li>
+                    </ul>
+                    </li>
+                    <li>Michoacan</li>
+                    <li>Oaxaca</li>
+                    <li>Baja California</li>
+                </ul>
+                </li>
+                <li>Estados Unidos</li>
+                  </ol> 
+            </section>
+      </main>
+        <footer>
+        <h5>Elaborado por Arlette Vazquez</h5>
+        </footer>
+    </body>
+</html>
